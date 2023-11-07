@@ -1,0 +1,95 @@
+h1 {
+    color: aqua;
+    text-align: center;
+}
+
+img {
+    border: 10px;
+    border-radius: 230px;
+}
+
+button {
+    background-color: green;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+h2{
+    color: lightgreen;
+    text-overflow: clip;
+}
+
+.lucans {
+    color:blueviolet;
+    background-color: red;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+figcaption {
+    color: aqua;
+}
+
+nav {
+    color: aquamarine;
+    font-size: xx-large;
+    text-align: left;
+}
+
+figure {
+    text-align: left;
+}
+
+.right {
+    float: 50%right;
+}
+
+section1 {
+    color: aliceblue;
+    font-size: x-large;
+}
+
+* {
+    background-color: rgba(1, 9, 56, 0.932);
+    
+}
+
+.profile-picture img {
+    width: 30%;
+    height: 0.1px;
+}
+ 
+footer {
+color: red;
+}
+
+contact me {
+    background-color: red;
+}

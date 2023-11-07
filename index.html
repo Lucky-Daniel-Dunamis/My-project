@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, intial-scale=1.0">
+    <title>My Frist Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1><i>My First Project</i></h1>
+        <hr>
+
+         <div class="div">
+            <figure class="profile-picure">
+                <img src="img/WhatsApp Image 2023-11-04 at 14.17.27_6016b414.jpg" alt="My picture" width="250px" height="250px">
+                <figcaption>This is about me </figcaption>
+            </figure>
+            <button onclick="showAlert()">Click Me </button>
+            <hr>
+    </header>
+    <main>
+        </div>
+        <section1>
+            <h2>About Me</h2>
+            <p>This is brefily about me</p>
+            <p>There is lots that you definately need to know about me</p>
+            <p>I have three months of experience in front end web development</p>
+            <ul>
+                <li>Me as an Front End Web developer.</li>
+                <li>Me as a Professional Saxophonist.</li>
+                <li>Me as an Electrical Engineer.</li>
+                <li>Me as a Trumpeter.</li>
+            </ul>
+            <hr>
+            </section>
+            <h2>Website that i visit daliy that you might also like</h2>
+            <div class="block right">
+                <nav aria-labelledby="primary-navigation">
+                    <ul>
+                        <li>Open<a href="https://www.google.com/" target="_blank">Google</a> in a new tab.</li>
+                        <li>Open <a href="https://www.chrome.com/" target="_blank">Chrome</a> in a new tab.</li>
+                        <li>
+                            Open <a href="https://www.facebook.com/" target="_blank"> Facebook</a>
+                        </li>
+                        <li>
+                            Open <a href="https://www.instagram.com/RHEMZBITES/">Rhemz bite</a>
+                        </li>
+    
+    
+    
+    
+                    </ul>
+                </nav>
+            </div>
+
+            <section2>
+                <h2>My services</h2>
+                <p>You can place your oders here i am at your service</p>
+                <ul>
+                    <li>As a saxophonist contact me for your birthday suprise</li>
+                    <li>As a font end website developer: contact me for website creation or development  </li>
+                    <li>As a drumer: Contact me for shows  </li>
+                    <li> </li>
+                </ul>
+                </section>
+                <hr>
+
+                <section>
+                    <h2>My Hobbies</h2>
+                    <ul>
+                        <li>Playing saxophone</li>
+                        <li>Coding</li>
+                        <li>Craft work: like toy cars</li>
+                        <li>Cooking</li>
+                        <li>Baking</li>
+                    </ul>
+                </section>
+                <hr>
+
+                <section>
+                    <h2>You can follow me </h2>
+                    <ul>
+                        <li>On<a href="https://wwww.facebook.com/Lucky Dan Dunamis" target="_blank">  Facebook</a> </li>
+                        <li>On<a href="https://wwww.instagram.com/lucky daniel dunamis" target="_blank"> Instagrm</a></li>
+                        <li>On<a href="https://wwww.telegram.com/Dunamis Chukwuemeka" target="_blank"> Telegram</a></li>
+                        <li>On<a href="https://wwww.twitter.com/Dunamis Chukwuemeka" target="_blank"> Twitter</a></li>
+                        <li>On<a href="https://wwww.tiktok.com/lucky daniel dunamis" target="_blank"> Tiktok</a></li>
+                    </ul>
+                </section>
+                <hr>
+                <button id="showImageAlert">Click Me</button>
+                <div id="customAlert" class="modal">
+                    <div class="modal-content">
+                        <span class="close" id="closeImageAlert">&times;</span>
+                        <img src="img/1000013532.jpg" alt="Image Alert" width="300px" height="400px">
+
+
+                    </div>
+
+                </div>
+                <script>
+                       function showAlert() {
+                           alert("Hello This  Is From Dunamis And This  Is About Me");
+                       }
+
+                       document.getElementById("showImageAlert").addEventListener("click", function(){
+                        document.getElementById("customAlert").style.display = "block";
+                       });
+
+                       document.getElementById("closeImageAlert").addEventListener("click", function(){
+                        document.getElementById("customAlert").style.display = "none";
+                         
+                       });
+
+                       const images = document.querySelectorAll("#slideshow img");
+                       let currentImageIndex = 0;
+                       setInterval(() => {
+                        images[currentImageIndex].style.display = 'none' ;
+                        currentImageIndex = (currentImageIndex + 4) % image.length;
+                        images[currentImageIndex].style.display = 'block';
+                       }, );
+                </script>
+    </main>
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy; <a href="contact.html">Lucky Dunamis</a> &gt;&gt;&gt;
+        </p>
+    </footer>
+    <p>
+        <a href="#">Back To Top</a>
+    </p>
+
+</body>
+
+</html>
